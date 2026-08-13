@@ -1,7 +1,7 @@
 userBirth = int(input("What is your year of birth? "))
-while userBirth <1900:
+while userBirth < 1900:
     print("Invalid Year, it should not be earlier than 1900")
-    userBirth = input("What is your year of birth? ")
+    userBirth = int(input("\nWhat is your year of birth? "))
 
 if (userBirth - 1900) % 12 == 0:
     print("\nYour Chinese Zodiac Sign is: Rat (鼠 / Shǔ)")
