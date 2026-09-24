@@ -1,0 +1,41 @@
+class Account:
+    def __init__(self, account_number, name, balance):
+        self.__account_number = account_number
+        self.__name = name
+        self.__balance = balance
+
+    # Add the methods shown in your diagram here
+    # Example:
+    def deposit(self, amount):
+        pass
+
+    def withdraw(self, amount):
+        pass
+
+    def display_info(self):
+        pass
+
+
+class SavingsAccount(Account):
+    def __init__(self, account_number, name, balance, interest_rate):
+        super().__init__(account_number, name, balance)
+        self.__interest_rate = interest_rate
+
+    # Add SavingsAccount-specific methods from the diagram
+    def calculate_interest(self):
+        pass
+
+
+class Bank:
+    def __init__(self):
+        self.__accounts = []
+
+    # Add the Bank methods from the diagram
+    def add_account(self, account):
+        self.__accounts.append(account)
+
+    def find_account(self, account_number):
+        for account in self.__accounts:
+            if account.get_account_number() == account_number:
+                return account
+        return None
