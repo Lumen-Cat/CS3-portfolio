@@ -11,6 +11,6 @@
 - [FA5](https://github.com/Lumen-Cat/CS3-portfolio/blob/main/q1/q1_sg5_a1_Balingkilat_Cato.py)
 - [FA6](https://github.com/Lumen-Cat/CS3-portfolio/blob/main/q1/q1_sg6_Balingkilat_Cato.py)
 - [FA7](https://github.com/Lumen-Cat/CS3-portfolio/blob/main/q1/q1_sg7_Balingkilat_Cato.py)
-###
+---
 ## **Q2**
 - [FA1](https://github.com/Lumen-Cat/CS3-portfolio/blob/main/q2/fa1_Balingkilat_Cato.py)
