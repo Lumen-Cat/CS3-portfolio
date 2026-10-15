@@ -1,4 +1,5 @@
 
+# Creates Publication class (parent class)
 class Publication:
     __title = ""
     __author = ""
@@ -26,7 +27,7 @@ class Publication:
         print(f"Title: {self.__title}\nAuthor: {self.__author}")
 
 
-    
+ # Creates Book class (child class of Publication)
 class Book(Publication):
     __number_of_pages = 0
 
@@ -37,14 +38,14 @@ class Book(Publication):
     def get_number_of_pages(self):
         return f"Number of pages: {self.__number_of_pages}"
 
-    def set_number_of_pages(self, number_pages):
+    def set_number_of_pages(self, number_pages):  # Checks and sets number of pages
         if number_pages>0:
             self.__number_of_pages = number_pages
 
         else:
             print("The number of pages must be positive")
         
-
+# Creates Magazine class (child class of Publication)
 class Magazine(Publication):
     __issue_number = 0
 
@@ -55,19 +56,20 @@ class Magazine(Publication):
     def get_issue_number(self):
         return f"Issue number: {self.__issue_number}"
 
-    def set_issue_number(self, issue_number):
+    def set_issue_number(self, issue_number):   # Checks and sets issue number
         if issue_number>0:
             self.__issue_number = issue_number
         else:
             print("The number of pages must be positive")
 
 
-
+# Creating objects
 pub1 = Publication("Journal of Experimental Psychology", "Ratchiff, R. & Van Dongen, H.")
 book1 = Book("The Hobbit", "J.R.R. Tolkien", 310)
 mag1 = Magazine("National Geographic", "Various Authors", 202)
 
 
+# Printing the information
 print("Publication Information:")
 pub1.display_info()
 
