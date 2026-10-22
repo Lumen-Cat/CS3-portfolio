@@ -14,3 +14,4 @@
 ---
 ## **Q2**
 - [FA1](https://github.com/Lumen-Cat/CS3-portfolio/blob/main/q2/fa1_Balingkilat_Cato.py)
+- [FA2](https://github.com/Lumen-Cat/CS3-portfolio/blob/main/q2/fa2_Balingkilat_Cato.py)
